@@ -372,22 +372,22 @@ nav li a:not(.searchform):hover:before {
   transition: opacity 0.6s ease-in-out;
 }
 #slide1 {
-  background-image: url(images/layout-design.jpg);
+  background-image: url(../images/layout-design.jpg);
 }
 #slide2 {
-  background-image: url(images/rtl-design.jpg);
+  background-image: url(../images/rtl-design.jpg);
 }
 #slide3 {
-  background-image: url(images/circuit-design.jpg);
+  background-image: url(../images/circuit-design.jpg);
 }
 #slide4 {
-  background-image: url(images/embedded-system.jpeg);
+  background-image: url(../images/embedded-system.jpeg);
 }
 #slide5 {
-  background-image: url(images/modeling-simulation.jpg);
+  background-image: url(../images/modeling-simulation.jpg);
 }
 #slide6 {
-  background-image: url(images/firmware-development.jpeg);
+  background-image: url(../images/firmware-development.jpeg);
 }
 
 .slide-cycle {

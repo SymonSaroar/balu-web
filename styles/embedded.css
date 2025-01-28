@@ -30,7 +30,7 @@
 }
 .title {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/embedded-system.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/embedded-system.jpeg');
     background-size: cover;
     color: white;
     width: 100%;
