@@ -1,0 +1,15 @@
+.search-results-container {
+    padding: 2rem;
+}
+
+.result-item {
+    margin-bottom: 2rem;
+}
+
+.result-item h2 {
+    margin: 0;
+}
+
+.result-item p {
+    margin: 0.5rem 0 0;
+}
