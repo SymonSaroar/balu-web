@@ -183,9 +183,11 @@
     }
     .expertise > div > ul > li {
         border: 1px solid rgba(0, 0, 0, 0.053);
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.175);
+        box-shadow: 0px 2px 2px 0px #072c76;
+        border-bottom: 1px solid #08399c42;
         padding: 1.5rem;
         font-weight: bold;
+        background-color: #1e5794;
     }
     .expertise > div > ul > li > i {
         font-size: 5rem;

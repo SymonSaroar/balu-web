@@ -1,5 +1,5 @@
 cur = -1;
-let numOfSlides = 5;
+let numOfSlides = 6;
 let slideDelay = 5000;
 let sliderTimeout;
 let slides;

@@ -279,6 +279,7 @@ nav li a:not(.searchform):hover:before {
 }
 .searchform {
   vertical-align: middle;
+  display: inline;
 }
 
 .searchinp {

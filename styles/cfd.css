@@ -18,9 +18,11 @@
 }
 .body h1 {
     font-size: 4rem;
+    letter-spacing: 0.1rem;
 }
 .body h2 {
     font-size: 3rem;
+    /* letter-spacing: 0.15rem; */
 }
 .body p {
     text-align: justify;
@@ -92,6 +94,7 @@
 .expertise > div > ul > li {
     box-shadow: 0px 2px 2px 0px #072c76;
     border-bottom: 1px solid #08399c42;
+    /* background-color: #1e5794; */
 }
 .expertise > div > ul > li > i {
     font-size: 10rem;
@@ -100,10 +103,11 @@
 .industries {
     width: 100%;
     background-color: #f8f9fa;
-    padding: 3rem 0;
+    /* padding: 3rem 0; */
 }
 .industries > div {
     margin: 0 auto;
+    text-align: center;
 }
 .industries > div > h1 {
     text-align: center;
@@ -113,12 +117,27 @@
 .industries > div > ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 1rem;
     margin: 0 auto;
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
+    justify-content: center;
+}
+.industries > div > ul > li {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    transition: all 0.3s ease-in-out;
+    /* font-weight: bold; */
+}
+.industries > div > ul > li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    /* font-weight: bold; */
 }
 .how-we-work {
     width: 100%;
@@ -143,6 +162,15 @@
     font-size: 1.5rem;
     text-align: left;
     /* padding-left: 2rem; */
+}
+.how-we-work > div > ol > li {
+    /* border-left: 4px solid #08399C; */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    transition: all 0.3s ease-in-out;
+    /* padding-left: 2rem; */
+}
+.how-we-work > div > ol > li:hover {
+    /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); */
 }
 @media (min-width: 700px) {
     * {
@@ -230,13 +258,21 @@
     }
     .expertise > div > ul > li {
         border: 1px solid rgba(0, 0, 0, 0.053);
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.175);
+        box-shadow: 0px 2px 2px 0px #072c76;
+        border-bottom: 1px solid #08399c42;
         padding: 1.5rem;
         font-weight: bold;
+        background-color: #1e5794;
     }
     .expertise > div > ul > li > i {
         font-size: 5rem;
         color: wheat;
         margin-bottom: 1rem;
+    }
+    .industries > div > h1 {
+        padding: 0;
+    }
+    .how-we-work > div > h1 {
+        padding: 0;
     }
 }
